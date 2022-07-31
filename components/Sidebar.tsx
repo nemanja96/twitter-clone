@@ -6,7 +6,7 @@ import SidebarRow from './SidebarRow';
 
 function Sidebar() {
   return (
-    <div>
+    <div className='col-span-2 flex flex-col items-center px-4 md:items-start'>
         <Image src={twitterIcon} alt="Twitter" width="40px" height="40px" />
         <SidebarRow Icon={HomeIcon} title="Home" />
         <SidebarRow Icon={HashtagIcon} title="Explore" />
